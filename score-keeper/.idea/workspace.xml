@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="342cde6d-2b79-40aa-9ceb-eb7f624dca06" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mock-score-printer.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/printer-interface.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/score-keeper.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/score-keeper_acceptance_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/score-keeper_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/score-printer.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/score-printer_test.go" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" url="file:///usr/local/opt/go/libexec" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2P0zCjU8mRxVYvLnWcPWEGpyX0z" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultGoTemplateProperty&quot;: &quot;Go File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.modules.go.list.on.any.changes.was.set&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
+    &quot;go.sdk.automatically.set&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/myoungbae/Desktop/Myoung/tdd-practice/score-keeper&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Go Test.TestScorePrintShould in github.com/mhbae-dev/tdd-practice/score-keeper">
+    <configuration name="TestScoreKeeper in github.com/mhbae-dev/tdd-practice/score-keeper" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="score-keeper" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="github.com/mhbae-dev/tdd-practice/score-keeper" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestScoreKeeper\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestScoreKeeper/score_is_001:000_after_team_A_scores_1_point in github.com/mhbae-dev/tdd-practice/score-keeper" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="score-keeper" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="github.com/mhbae-dev/tdd-practice/score-keeper" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestScoreKeeper\E$/^\Qscore_is_001:000_after_team_A_scores_1_point\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestScoreKeeper/score_is_002:000_after_team_A_scores_2_points in github.com/mhbae-dev/tdd-practice/score-keeper" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="score-keeper" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="github.com/mhbae-dev/tdd-practice/score-keeper" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestScoreKeeper\E$/^\Qscore_is_002:000_after_team_A_scores_2_points\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestScorePrint in github.com/mhbae-dev/tdd-practice/score-keeper" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="score-keeper" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="github.com/mhbae-dev/tdd-practice/score-keeper" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestScorePrint\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestScorePrintShould in github.com/mhbae-dev/tdd-practice/score-keeper" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="score-keeper" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="github.com/mhbae-dev/tdd-practice/score-keeper" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestScorePrintShould\E$" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Test.TestScorePrintShould in github.com/mhbae-dev/tdd-practice/score-keeper" />
+        <item itemvalue="Go Test.TestScorePrint in github.com/mhbae-dev/tdd-practice/score-keeper" />
+        <item itemvalue="Go Test.TestScoreKeeper in github.com/mhbae-dev/tdd-practice/score-keeper" />
+        <item itemvalue="Go Test.TestScoreKeeper/score_is_002:000_after_team_A_scores_2_points in github.com/mhbae-dev/tdd-practice/score-keeper" />
+        <item itemvalue="Go Test.TestScoreKeeper/score_is_001:000_after_team_A_scores_1_point in github.com/mhbae-dev/tdd-practice/score-keeper" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VgoProject">
+    <settings-migrated>true</settings-migrated>
+  </component>
+</project>
