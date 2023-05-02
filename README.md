@@ -15,6 +15,7 @@ Test-Driven Development (TDD) is a software development methodology that emphasi
 By following this process, developers can create code that is more reliable, maintainable, and resilient to change.
 
 ### TDD Kata List
-|    Title     |        Solution         |   Topics   |   
-|:------------:|:-----------------------:|:----------:|
-| Score Keeper | [Go](./score-keeper/Go) | Outside-In |
+|    Title     |       Solution       |   Topics   |   
+|:------------:|:--------------------:|:----------:|
+| Score Keeper | [Go](./score-keeper) | Outside-In |
+|     Ohce     |     [Go](./ohce)     | Outside-In |
