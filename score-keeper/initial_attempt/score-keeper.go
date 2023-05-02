@@ -2,8 +2,9 @@ package scoreKeeper
 
 type ScoreKeeper struct {
 	scorePrinter Printer
-	teamAScore   int
-	teamBScore   int
+	scoreBoard   Board
+	//teamAScore   int
+	//teamBScore   int
 }
 
 func NewScoreKeeper(scorePrinter Printer) *ScoreKeeper {

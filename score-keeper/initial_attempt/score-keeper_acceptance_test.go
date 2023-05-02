@@ -7,10 +7,10 @@ import (
 )
 
 func TestScoreKeeperAcceptance(t *testing.T) {
-	mockPrinter := new(scoreKeeper.MockPrinter)
-	scoreKeeper := scoreKeeper.NewScoreKeeper(mockPrinter)
+	printer := scoreKeeper.ScorePrinter{}
+	scoreKeeper := scoreKeeper.NewScoreKeeper(&printer)
 
-	mockPrinter.On("Print", 6, 6).Return("006:006")
+	//mockPrinter.On("Print", 6, 6).Return("006:006")
 
 	scoreKeeper.ScoreTeamA1()
 	scoreKeeper.ScoreTeamA2()
@@ -21,5 +21,5 @@ func TestScoreKeeperAcceptance(t *testing.T) {
 
 	score := scoreKeeper.GetScore()
 	assert.Equal(t, "006:006", score)
-	mockPrinter.AssertExpectations(t)
+	//mockPrinter.AssertExpectations(t)
 }

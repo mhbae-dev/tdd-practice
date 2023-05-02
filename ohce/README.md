@@ -4,17 +4,16 @@ ohce Kata
 Source
 https://kata-log.rocks/ohce-kata
 
-This kata has been altered for english speakers.
+This kata has been slightly adjusted from the original.
 
 Requirements
 ------------
 ## Your task
 
-ohce is a console application that echoes the reverse of what you input through the console.
+Write a console application that mimics a conversation with a friend named Ohce (which is just echo spelled backwards).
 
-Even though it seems a silly application, ohce knows a thing or two.
+The application must read a string from the console, reverse it, and then print it back with some specific behavior:
 
-When you start ohce, it greets you differently depending on the current time in English:
 - Between 6 and 12 hours, ohce will greet you saying: ¡Good morning < your name >!
 - Between 12 and 18 hours, ohce will greet you saying: ¡Good afternoon < your name >!
 - Between 18 and 21 hours, ohce will greet you saying: ¡Good evening < your name >!
@@ -25,7 +24,8 @@ When you start ohce, it greets you differently depending on the current time in 
 ## Example
 This is an example of using ohce during the morning:
 ```
-$ ohce <your name>
+$ Hi, I'm Ohce! What's your name?
+$ < your name >
 > ¡Good morning <your name>!
 $ hello
 > olleh
@@ -37,5 +37,4 @@ $ stop
 $ Stop!
 > Goodbye <your name>
 ```
-
 

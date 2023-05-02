@@ -1,4 +1,4 @@
-module github.com/mhbae-dev/tdd-practice/score-keeper
+module scorekeeperkata
 
 go 1.19
 
